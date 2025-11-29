@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 import cv2
 
-MODEL_PATH = "model/currency_note_classifier (1).h5"
+MODEL_PATH = "model/currency_note_classifier.h5"
 model = tf.keras.models.load_model(MODEL_PATH)
 
 labels = ["1Hundrednote", "2Hundrednote", "2Thousandnote",
